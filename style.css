@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ body{
+      background-image:url("gradient1.jfif");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      }
+.main{
+      position:absolute;
+      left : 50%;
+      top : 50%;
+      border-radius:0px 0px 0px 0px;
+      transform: translate(-50%,-50%);
+      background :rgb(255, 255, 255);
+      box-shadow: rgba(10,10,10,01);
+     }
+.textview{
+          background-color:#0e0d0d;
+          color:rgb(255, 255, 255);
+          border-radius : 0 0 0 0 ;
+          padding:25px;
+          font-size:20px;
+        }
+.button{
+        width:79px;
+        height:75px;
+        border-radius:0 0 0 0;
+        outline:none;
+        border:none;
+        font-size:20px;
+        text-align:center;
+        transition:0.2s all linear;
+       }
+.button:hover{
+              background-color: #d0cecf;
+              }
+.button:active{
+              background-color:#4eeaea;
+              }
+#equal{
+       width:160px;
+       background-color: #4eeaea;
+      }
+#equal:active{
+              background-color: #d0cecf;
+              }     
+              
